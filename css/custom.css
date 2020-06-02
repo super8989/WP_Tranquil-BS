@@ -21,6 +21,13 @@ img {
   min-height: 25vh;
 }
 
+
+/* Welcome Section */
+
+.card-text {
+  font-size: 1.2rem;
+}
+
 @media screen and (min-width: 768px) {
   .feature-bg {
     width: 60vw;
