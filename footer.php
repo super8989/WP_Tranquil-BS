@@ -1,3 +1,10 @@
+<?php 
+/*
+* The template for displaying the footer
+*/
+?>
+
+
 <footer class="container-fluid py-5">
     <div class="row">
       <div class="col-sm-4">
@@ -51,6 +58,7 @@
   </script>
   <script src="js/bootstrap.min.js">
   </script>
+  <?php wp_footer(); ?>
 </body>
 
 </html>

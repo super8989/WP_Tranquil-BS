@@ -1,10 +1,16 @@
+<?php
+/*
+* The header for our theme
+*/
+?>
+
 
 <!doctype html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
 
 <head>
   <!-- Required meta tags -->
-  <meta charset="utf-8">
+  <meta charset="<?php bloginfo('charset'); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
@@ -20,15 +26,16 @@
   <link rel="stylesheet" href="css/custom.css">
 
 
-  <title>Tranquil Spa</title>
+  <!-- <title>Tranquil Spa</title> -->
+  <?php wp_head(); ?>
 </head>
 
-<body>
+<body <?php body_class(); ?> >
 
   <!-- HEADER -->
   <header>
     <nav class='navbar navbar-expand-md navbar-light bg-light'>
-      <a class='navbar-brand' href=''>Tranquil Spa</a>
+      <a class='navbar-brand' href='<?php echo esc_url( home_url()); ?>'><?php echo get_bloginfo('name'); ?></a>
       <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarNav'>
         <span class="navbar-toggler-icon"></span>
       </button>
