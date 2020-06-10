@@ -33,16 +33,30 @@
       <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarNav'>
         <span class="navbar-toggler-icon"></span>
       </button>
+      <!-- 
       <div class="collapse navbar-collapse justify-content-end" id='navbarNav'>
-        <ul class="navbar-nav">
+       <ul class="navbar-nav">
           <li class="nav-item">
             <a href="index.html" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
             <a href="blog.html" class="nav-link">Blog</a>
           </li>
-        </ul>
+        </ul> 
       </div>
+      -->
+        <?php 
+          wp_nav_menu( array(
+            'theme_location'  => 'primary',
+            'depth'           => 1, // 1 = no dropdowns, 2 = with dropdowns.
+            'container'       => 'div',
+            'container_class' => 'collapse navbar-collapse justify-content-end',
+            'container_id'    => 'navbarNav',
+            'menu_class'      => 'navbar-nav',
+            'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+            'walker'          => new WP_Bootstrap_Navwalker(),
+          ) );
+        ?>
     </nav>
 
     <section class='container-fluid'>
