@@ -1,7 +1,7 @@
 <?php 
 
 /*
-* The main template file
+* The template for displaying single posts
 */
 
 ?>
@@ -17,7 +17,7 @@
     }
   } else {
 ?>
-    <p><?php _e('Sorry, no posts matched your criteria'); ?></p>
+    <p><?php _e('Sorry, no pages matched your criteria'); ?></p>
 
 <?php      
   }
