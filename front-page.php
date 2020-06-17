@@ -54,7 +54,7 @@
     <div class="row">
       <div class="col-sm-4">
         <div class="card h-100">
-          <h4 class="card-header py-5">Family Swim <span class="font-weight-bold">$60</span></h4>
+          <h4 class="card-header py-5">Family Swim <span class="font-weight-bold price">$60</span></h4>
           <div class="card-body">
             <blockquote class='blockquote mb-0'>
               <p>Our most popular swim package. Great value for families or groups up to 12 people</p>
@@ -70,7 +70,7 @@
 
       <div class="col-sm-4">
         <div class="card h-100">
-          <h4 class="card-header py-5">For the bride <span class="font-weight-bold">$40</span></h4>
+          <h4 class="card-header py-5">For the bride <span class="font-weight-bold price">$40</span></h4>
           <div class="card-body">
             <blockquote class='blockquote mb-0'>
               <p>Our wedding packages are perfect for your big day. We can cater both large or small groups</p>
@@ -86,7 +86,7 @@
 
       <div class="col-sm-4">
         <div class="card h-100">
-          <h4 class="card-header py-5">Weekend Pass <span class="font-weight-bold">$60</span></h4>
+          <h4 class="card-header py-5">Weekend Pass <span class="font-weight-bold price">$60</span></h4>
           <div class="card-body">
             <blockquote class='blockquote mb-0'>
               <p>Take full advantage of all facilities with our unlimited weekend pass</p>

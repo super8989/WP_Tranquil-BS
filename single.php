@@ -26,6 +26,7 @@
                   <p class='d-inline'><?php the_tags('Tagged: ', ' ~ '); ?></p>
                 </div>
                 <p><?php the_content(); ?></p>
+                <?php wp_link_pages(); ?>
                 
               </div>
               
@@ -41,8 +42,8 @@
 
         <nav>
           <ul class="nav">
-            <li><?php next_posts_link(); ?></li> &nbsp;
-            <li><?php previous_posts_link(); ?></li>
+            <li><?php next_post_link(); ?></li> &nbsp;
+            <li><?php previous_post_link(); ?></li>
           </ul>
         </nav>
       </div>
