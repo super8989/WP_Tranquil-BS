@@ -20,9 +20,7 @@ function tranquilwp_setup() {
 add_action('after-setup_theme', 'tranquilwp_setup');
 
 
-/**
- * Register Custom Navigation Walker
- */
+// Register Custom Navigation Walker
 function register_navwalker() {
   require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
 

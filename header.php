@@ -61,7 +61,7 @@
 
     <section class='container-fluid'>
       <div class="row position-relative d-flex justify-content-center align-items-center text-center">
-        <img src="images/lake.jpg" alt="Lake background" class='header_img'>
+        <img src="<?php echo esc_url(get_template_directory_uri()) ?>/images/lake.jpg" alt="Lake background" class='header_img'>
         <div class='position-absolute feature-bg'>
           <p class='feature-text'>Fully Responsive<br> Custom Theme<br> For WordPress</p>
         </div>

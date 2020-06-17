@@ -15,25 +15,25 @@
     <div class="row">
       <div class="col-md-6 offset-md-3">
         <h3>Welcome to Tranquil Spa</h3>
-        <img src="images/divider-purple.png" alt="divider" class='w-25'>
+        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/divider-purple.png" alt="divider" class='w-25'>
       </div>
     </div>
 
     <div class="row mt-4 d-flex justify-content-around">
       <div class="col-sm-3">
-        <img src="images/makeup.jpg" alt="Makeup image" class='card-img-top rounded-circle'>
+        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/makeup.jpg" alt="Makeup image" class='card-img-top rounded-circle'>
         <div class="card-body">
           <p class='card-text'>Hair &amp; Makeup</p>
         </div>
       </div>
       <div class="col-sm-3">
-        <img src="images/candles.jpg" alt="Candles image" class='card-img-top rounded-circle'>
+        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/candles.jpg" alt="Candles image" class='card-img-top rounded-circle'>
         <div class="card-body">
           <p class='card-text'>Spa Facilities</p>
         </div>
       </div>
       <div class="col-sm-3">
-        <img src="images/retreat.jpg" alt="Retreat image" class='card-img-top rounded-circle'>
+        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/retreat.jpg" alt="Retreat image" class='card-img-top rounded-circle'>
         <div class="card-body">
           <p class='card-text'>Take a Tour</p>
         </div>
@@ -47,7 +47,7 @@
     <div class="row">
       <div class="col-md-6 offset-md-3">
         <h3 class="text-light">Latest Spa Offers</h3>
-        <img src="images/divider-silver.png" alt="Divider" class='pb-4 w-25'>
+        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/divider-silver.png" alt="Divider" class='pb-4 w-25'>
       </div>
     </div>
 
@@ -107,7 +107,7 @@
     <div class="row">
       <div class="col-sm-6 offset-sm-3">
         <h3>About Us</h3>
-        <img src="images/divider-purple.png" alt="Divider" class='w-25'>
+        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/divider-purple.png" alt="Divider" class='w-25'>
       </div>
     </div>
     <div class="row mt-2">
@@ -123,12 +123,12 @@
     <div class="row">
       <div class="col-md-6 offset-md-3 text-center">
         <h3 class='text-light'>Price List</h3>
-        <img src="images/divider-silver.png" alt="Divider" class='pb-4 w-25'>
+        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/divider-silver.png" alt="Divider" class='pb-4 w-25'>
       </div>
     </div>
     <div class="row my-4">
       <div class="col-sm-8">
-        <img src="images/massage.jpg" alt="Massage image">
+        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/massage.jpg" alt="Massage image">
       </div>
       <div class="col-sm-4">
         <h4 class="title text-center">Massages</h4>
@@ -152,13 +152,13 @@
           <li class="list-group-item">Facial 5 <em>-$10</em></li>
       </div>
       <div class="col-sm-8">
-        <img src="images/facial.jpg" alt="Facial image">
+        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/facial.jpg" alt="Facial image">
       </div>
     </div>
 
     <div class="row my-4">
       <div class="col-sm-8">
-        <img src="images/cosmetics.jpg" alt="Cosmetics image">
+        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/cosmetics.jpg" alt="Cosmetics image">
       </div>
       <div class="col-sm-4">
         <h4 class="title text-center">Hair &amp; Makeup</h4>
