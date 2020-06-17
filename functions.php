@@ -51,4 +51,15 @@ function new_excerpt_text() {
 add_filter('excerpt_more', 'new_excerpt_text');
 
 
+function featureText() {
+  if ( is_front_page() ) {
+    _e('FULLY RESPONSIVE<br> PREMIUM SPA<br> FOR WORDPRESS');
+  } elseif ( is_home() ) {
+    _e('TRANQUIL SPA OFFICIAL BLOG');
+  } else {
+    _e('FULLY RESPONSIVE<br> PREMIUM SPA<br> FOR WORDPRESS');
+  }
+}
+
+
 ?>
