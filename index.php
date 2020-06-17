@@ -20,7 +20,6 @@
             while (have_posts()) {
                 the_post(); 
         ?>
-
               <div>
                 <a href="<?php the_permalink(); ?>">
                   <h2><?php the_title(); ?></h2>
@@ -35,11 +34,9 @@
                   <a href="<?php the_permalink(); ?>">
                     <?php _e('Read more...') ?>
                   </a>
-
                 </div>
               </div>
               
-         
         <?php
               }
             } else {
@@ -49,17 +46,21 @@
           }
         ?>
 
-        </div><!-- row -->
-      </main><!-- container-->
 
+        <nav>
+          <ul class="nav">
+            <li><?php next_posts_link(); ?></li> &nbsp;
+            <li><?php previous_posts_link(); ?></li>
+          </ul>
+        </nav>
+      </div>
 
-   <nav>
-    <ul class="nav">
-      <li><?php next_posts_link(); ?></li> &nbsp;
-      <li><?php previous_posts_link(); ?></li>
-    </ul>
-  </nav>
-</div>
+      <aside class="col-sm-4">
+        <?php get_sidebar(); ?>
+      </aside>
+
+    </div><!-- row -->
+  </main><!-- container-->
 
 
 
