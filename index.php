@@ -22,13 +22,21 @@
         ?>
 
               <div>
-                <h2><?php the_title(); ?></h2>
+                <a href="<?php the_permalink(); ?>">
+                  <h2><?php the_title(); ?></h2>
+                </a>
                 <p><?php echo get_the_date('F j, Y'); ?> by <a href=""><?php the_author(); ?></a></p>
                 <div class='pb-2'>
                   <i class="fas fa-tags"></i>
                   <p class='d-inline'><?php the_tags('Tagged: ', ' ~ '); ?></p>
                 </div>
                 <p><?php the_excerpt(); ?></p>
+                <div class='mb-3'>
+                  <a href="<?php the_permalink(); ?>">
+                    <?php _e('Read more...') ?>
+                  </a>
+
+                </div>
               </div>
 
         <?php
