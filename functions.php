@@ -54,7 +54,7 @@ add_filter('excerpt_more', 'new_excerpt_text');
 function featureText() {
   if ( is_front_page() ) {
     _e('FULLY RESPONSIVE<br> PREMIUM SPA<br> FOR WORDPRESS');
-  } elseif ( is_home() ) {
+  } elseif ( is_home() || is_single() ) {
     _e('TRANQUIL SPA OFFICIAL BLOG');
   } else {
     _e('FULLY RESPONSIVE<br> PREMIUM SPA<br> FOR WORDPRESS');
