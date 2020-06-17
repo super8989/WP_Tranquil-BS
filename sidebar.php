@@ -8,22 +8,21 @@
 <div class="py-3">
   <h4 class='font-italic'>Archives</h4>
   <ol class="list-unstyled mb-0">
-    <li><a href="">April 2020</a></li>
-    <li><a href="">May 2020</a></li>
-    <li><a href="">June 2020</a></li>
+    <?php wp_get_archives(); ?>
   </ol>
 </div>
 <div class="py-3">
   <h4 class="font-italic">Categories</h4>
   <ol class="list-unstyled mb-0">
-    <li><a href="">News</a></li>
-    <li><a href="">Offers</a></li>
+    <?php wp_list_categories('title_li='); ?>
   </ol>
 </div>
 <div class="py-3">
   <h4 class="font-italic">Follow Us</h4>
   <i class="fab fa-facebook-square fa-2x"></i>
-  <i class="fab fa-twitter-square fa-2x"></i>
+  <a href="https://twitter.com" target="_blank">
+    <i class="fab fa-twitter-square fa-2x"></i>
+  </a>
   <i class="fab fa-instagram fa-2x"></i>
   <i class="fab fa-pinterest-square fa-2x"></i>
 </div>
